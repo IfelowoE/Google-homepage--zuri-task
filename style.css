@@ -1,0 +1,94 @@
+
+nav{
+    display:flex;
+    justify-content: space-around;
+    width:20%;
+    margin-left:auto;
+    margin-top:20px;
+}
+nav a{
+    color:black;
+    text-decoration:none;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+nav img{
+    height:20px;
+    width:20px;
+    margin:5px;
+}
+.gmail{
+    border:1px solid grey;
+    border-radius:100%;
+    width:20px;
+    text-align:center;
+    background-color: teal;
+    color: white;
+    font-size:large
+}
+main{
+    text-align:center;
+    margin:auto;
+    margin-top: 30px;
+    width:50%;
+}
+
+input{
+    width: 80%;
+    padding:1em;
+    border-radius:30px;
+    border:1px solid rgba(197, 188, 188,.5);
+    margin-bottom: 10px;
+}
+.btns-container{
+    margin-top:15px
+}
+.btns-container button{
+    padding:.7em;
+    border:none;
+    border-radius: 3px;
+    margin:5px;
+    background-color:whitesmoke;
+    color:rgb(61, 60, 60);
+    font-family: sans-serif;
+    font-size: 14px;
+}
+p{
+    font-family: sans-serif;
+    font-size:13px
+}
+p a{
+    color:rgb(54, 54, 146)
+}
+footer{
+    background-color: whitesmoke;
+    margin-top:13%;
+    margin-bottom: 0;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.footer-top{
+    padding:.5em;
+    margin: 20px;
+    margin-bottom: 0;
+    color:grey;
+    
+}
+a{
+    text-decoration: none;
+    color:grey;
+    padding:10px
+}
+a:hover{
+    text-decoration: underline grey;
+}
+.footer-bottom{
+    display:flex;
+    margin: 0 20px;
+    border-top:1px solid rgb(212, 204, 204);
+    justify-content: space-between;
+    padding:.5em
+}
+
+
